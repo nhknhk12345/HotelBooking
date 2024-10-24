@@ -1,0 +1,35 @@
+.header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .search-container {
+    display: flex;
+  }
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .search-button {
+    padding: 10px;
+    background-color: #005bb5;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

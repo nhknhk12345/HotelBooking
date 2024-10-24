@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header Section -->
+<header>
+    <div class="header-content">
+        <h1>Hotel Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#promotions">Ưu đãi</a></li>
+                <li><a href="#category">Danh mục khách sạn</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <!-- Body Section -->
+    <div class="container">
+        <!-- Tools Section -->
+<section class="tools">
+    <h2>Đặt phòng</h2>
+    <form class="booking-form">
+        <div class="form-group">
+            <label for="booking-type">Kiểu đặt phòng:</label>
+            <select id="booking-type" class="form-input" required>
+                <option value="hourly">Theo giờ</option>
+                <option value="overnight">Qua đêm</option>
+                <option value="daily">Theo ngày</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="checkin-date">Ngày đến:</label>
+            <input type="date" id="checkin-date" class="form-input" required>
+        </div>
+        <div class="form-group">
+            <label for="checkout-date">Ngày đi:</label>
+            <input type="date" id="checkout-date" class="form-input" required>
+        </div>
+        <div class="form-group">
+            <label for="guests">Số lượng khách:</label>
+            <select id="guests" class="form-input">
+                <option value="1">1 khách</option>
+                <option value="2">2 khách</option>
+                <option value="3">3 khách</option>
+                <option value="4">4 khách</option>
+                <option value="5">5 khách</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="room-type">Loại phòng:</label>
+            <select id="room-type" class="form-input">
+                <option value="luxury">Luxury Room</option>
+                <option value="budget">Budget Room</option>
+                <option value="family">Family Suite</option>
+                <option value="deluxe">Deluxe Rooms</option>
+                <option value="standard">Standard Rooms</option>
+            </select>
+        </div>
+        <button type="submit" class="search-button">Tìm Kiếm</button>
+    </form>
+</section>
+
+<section id="promotions" class="promotions"></section>
+    <h2>Ưu đãi đặc biệt</h2>
+    <div class="promotions-container">
+        <div class="promotion">
+            <img src="offer1.jpg" alt="Offer 1">
+            <h3>Giảm 50% cho khách hàng mới</h3>
+            <p>Đặt phòng ngay hôm nay để nhận ưu đãi giảm giá 50% cho lần đặt phòng đầu tiên.</p>
+            <button>Đặt ngay</button>
+        </div>
+        <div class="promotion">
+            <img src="offer2.jpg" alt="Offer 2">
+            <h3>Ưu đãi cuối tuần</h3>
+            <p>Thư giãn vào cuối tuần với ưu đãi đặc biệt từ khách sạn của chúng tôi.</p>
+            <button>Đặt ngay</button>
+        </div>
+        <div class="promotion">
+            <img src="offer3.jpg" alt="Offer 3">
+            <h3>Combo 3 ngày 2 đêm</h3>
+            <p>Đặt combo 3 ngày 2 đêm với giá ưu đãi và trải nghiệm dịch vụ đẳng cấp.</p>
+            <button>Đặt ngay</button>
+        </div>
+    </div>
+</section>
+
+    
+        <section id="category" class="category">
+            <h2>Danh mục khách sạn</h2>
+            <ul>
+                <li>
+                    <h3>Luxury Rooms</h3>
+                    <p>Phòng sang trọng với nội thất hiện đại và dịch vụ cao cấp.</p>
+                </li>
+                <li>
+                    <h3>Budget Rooms</h3>
+                    <p>Phòng tiết kiệm với đầy đủ tiện nghi cho chuyến đi của bạn.</p>
+                </li>
+                <li>
+                    <h3>Family Suites</h3>
+                    <p>Phòng dành cho gia đình với không gian rộng rãi và tiện nghi.</p>
+                </li>
+                <li>
+                    <h3>Deluxe Rooms</h3>
+                    <p>Phòng Deluxe với tầm nhìn đẹp và dịch vụ cao cấp.</p>
+                </li>
+                <li>
+                    <h3>Standard Rooms</h3>
+                    <p>Phòng tiêu chuẩn với tiện nghi cơ bản và giá cả hợp lý.</p>
+                </li>
+            </ul>
+        </section>
+        
+    </div>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Hotel Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
